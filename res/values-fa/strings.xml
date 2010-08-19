@@ -46,7 +46,7 @@
     <!-- Data synchronization settings screen, menu option -->
     <string name="sync_menu_sync_cancel">لغو همگام‌سازی</string>
     <!-- Data synchronization settings screen, summary of a sync provider (for example, Gmail) when autosync is off and the user wants to do a one-time sync. -->
-    <string name="sync_one_time_sync">برای همگام‌سازی صفحه را لمس کنید.<xliff:g id="last_sync_time">\n%1$s</xliff:g></string>
+    <string name="sync_one_time_sync">برای همگام‌سازی صفحه را لمس کنید.<xliff:g id="last_sync_time">\n%1$Ls</xliff:g></string>
     <!-- Data synchronization settings screen, checkbox setting option name. Controls whether Gmail should be synced.  Should use "Gmail" to refer to this app.-->
     <string name="sync_gmail">جی‌میل</string>
     <!-- Data synchronization settings screen, checkbox setting option name. Controls whether Calendar shoudl be synced. -->
@@ -54,7 +54,7 @@
     <!-- Data synchronization settings screen, checkbox setting option name -->
     <string name="sync_contacts">آشنایان</string>
     <!-- Dialog message for when there are too many deletes that would take place and we want user confirmation -->
-    <string name="sync_too_many_deletes_desc">تعداد <xliff:g id="number_of_deleted_items">%1$d</xliff:g> مورد برای <xliff:g id="type_of_sync">%2$s</xliff:g>در حساب <xliff:g id="account_name">%3$s</xliff:g> حذف شده است. تمایل دارید چه کاری انجام دهید؟</string>
+    <string name="sync_too_many_deletes_desc">تعداد <xliff:g id="number_of_deleted_items">%1$Ld</xliff:g> مورد برای <xliff:g id="type_of_sync">%2$Ls</xliff:g>در حساب <xliff:g id="account_name">%3$s</xliff:g> حذف شده است. تمایل دارید چه کاری انجام دهید؟</string>
     <!-- Dialog action for when there are too many deletes that would take place and we want user confirmation, and the user wants to delete the items -->
     <string name="sync_really_delete">موارد را حذف کن.</string>
     <!-- Dialog action for when there are too many deletes that would take place and we want user confirmation, and the user wants to undo the deletions -->
@@ -111,7 +111,7 @@
     <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
     <string name="provider_label">اشتراک‌های پوش</string>
     <!-- Formatter in AccountSyncSettings for each application we wish to synchronize, e.g. "Sync Calendar" -->
-    <string name="sync_item_title">همگام‌سازی <xliff:g id="authority" example="Calendar">%s</xliff:g></string>
+    <string name="sync_item_title">همگام‌سازی <xliff:g id="authority" example="Calendar">%Ls</xliff:g></string>
     <!-- Title of dialog shown when you can't manually sync an item because it's disabled -->
     <string name="cant_sync_dialog_title">همگام‌سازی به صورت دستی امکان‌پذیر نیست.</string>
     <!-- Messaage shown in dialog when you can't manually sync -->
