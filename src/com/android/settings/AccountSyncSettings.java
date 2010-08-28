@@ -40,6 +40,7 @@ import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.text.format.DateFormat;
+import android.text.format.DateUtils;
 import android.preference.Preference;
 import android.preference.PreferenceScreen;
 import android.view.Menu;
@@ -71,8 +72,6 @@ public class AccountSyncSettings extends AccountPreferenceBase implements OnClic
     private ImageView mProviderIcon;
     private TextView mErrorInfoView;
     protected View mRemoveAccountArea;
-    private java.text.DateFormat mDateFormat;
-    private java.text.DateFormat mTimeFormat;
     private Preference mAuthenticatorPreferences;
     private Account mAccount;
     // List of all accounts, updated when accounts are added/removed
@@ -160,9 +159,6 @@ public class AccountSyncSettings extends AccountPreferenceBase implements OnClic
         mRemoveAccountButton = (Button) findViewById(R.id.remove_account_button);
         mRemoveAccountButton.setOnClickListener(this);
 
-
-        mDateFormat = DateFormat.getDateFormat(this);
-        mTimeFormat = DateFormat.getTimeFormat(this);
 
         mAccount = (Account) getIntent().getParcelableExtra(ACCOUNT_KEY);
         if (mAccount != null) {
@@ -303,7 +299,6 @@ public class AccountSyncSettings extends AccountPreferenceBase implements OnClic
     @Override
     protected void onSyncStateUpdated() {
         // iterate over all the preferences, setting the state properly for each
-        Date date = new Date();
         SyncInfo currentSync = ContentResolver.getCurrentSync();
         boolean syncIsFailing = false;
 
@@ -343,9 +338,8 @@ public class AccountSyncSettings extends AccountPreferenceBase implements OnClic
 
             final long successEndTime = (status == null) ? 0 : status.lastSuccessTime;
             if (successEndTime != 0) {
-                date.setTime(successEndTime);
-                final String timeString = mDateFormat.format(date) + " "
-                        + mTimeFormat.format(date);
+                int flags = DateUtils.FORMAT_SHOW_TIME | DateUtils.FORMAT_NO_YEAR;
+                final String timeString = DateUtils.formatDateTime(this, successEndTime, flags);
                 syncPref.setSummary(timeString);
             } else {
                 syncPref.setSummary("");
