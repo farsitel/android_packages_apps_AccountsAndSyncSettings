@@ -338,7 +338,7 @@ public class AccountSyncSettings extends AccountPreferenceBase implements OnClic
 
             final long successEndTime = (status == null) ? 0 : status.lastSuccessTime;
             if (successEndTime != 0) {
-                int flags = DateUtils.FORMAT_SHOW_TIME | DateUtils.FORMAT_NO_YEAR;
+                int flags = DateUtils.FORMAT_SHOW_TIME | DateUtils.FORMAT_NO_YEAR | DateUtils.FORMAT_SHOW_DATE;
                 final String timeString = DateUtils.formatDateTime(this, successEndTime, flags);
                 syncPref.setSummary(timeString);
             } else {
