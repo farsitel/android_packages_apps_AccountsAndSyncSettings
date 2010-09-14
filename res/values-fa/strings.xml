@@ -24,7 +24,7 @@
     <!-- Main Settings screen setting option name to go into the screen for data sync settings-->
     <string name="sync_settings">تنظیمات حساب‌ها و همگام‌سازی</string>
     <!-- Error message when the sync tried to delete too many things -->
-    <string name="sync_too_many_deletes">حذف از حد مجاز گذشت.(یا تجاوز کرد) -ایده‌آل نیست</string>
+    <string name="sync_too_many_deletes">این تعداد حذف، یکجا امکان ندارد.</string>
     <!-- Data synchronization settings screen, title of setting that controls whether background data should be used -->
     <string name="background_data">داده در پس‌زمینه</string>
     <!-- Data synchronization settings screen, summary of setting that controls whether background data should be used -->
@@ -40,7 +40,7 @@
     <!-- Data synchronization settings screen, setting option name -->
     <string name="settings_backup">تنظیمات پشتیبان‌گیری</string>
     <!-- Data synchronization settings screen, setting option summary text when check box is selected -->
-    <string name="settings_backup_summary">از تنظیمات من پشتیبان‌گیری کن.</string>
+    <string name="settings_backup_summary">از تنظیمات من پشتیبان‌گیری شود.</string>
     <!-- Data synchronization settings screen, menu option -->
     <string name="sync_menu_sync_now">همگام‌سازی</string>
     <!-- Data synchronization settings screen, menu option -->
@@ -56,13 +56,13 @@
     <!-- Dialog message for when there are too many deletes that would take place and we want user confirmation -->
     <string name="sync_too_many_deletes_desc">تعداد <xliff:g id="number_of_deleted_items">%1$Ld</xliff:g> مورد برای <xliff:g id="type_of_sync">%2$Ls</xliff:g>در حساب <xliff:g id="account_name">%3$s</xliff:g> حذف شده است. تمایل دارید چه کاری انجام دهید؟</string>
     <!-- Dialog action for when there are too many deletes that would take place and we want user confirmation, and the user wants to delete the items -->
-    <string name="sync_really_delete">موارد را حذف کن.</string>
+    <string name="sync_really_delete">موارد حذف شود.</string>
     <!-- Dialog action for when there are too many deletes that would take place and we want user confirmation, and the user wants to undo the deletions -->
     <string name="sync_undo_deletes">بازگرداندن موارد حذف شده</string>
     <!-- Dialog action for when there are too many deletes that would take place and we want user confirmation, and the user wants to do nothing for now -->
-    <string name="sync_do_nothing">اکنون کاری انجام نده.</string>
+    <string name="sync_do_nothing">کاری انجام نشود.</string>
     <!-- Message when sync is currently failing -->
-    <string name="sync_is_failing">همگام‌سازی در حال حاضر دچار مشکلاتی شده است. لطفاً بعداً دوباره امتحان کنید-ایده‌آل نیست.</string>
+    <string name="sync_is_failing">همگام‌سازی در حال حاضر مشکل دارد. بعداً امتحان کنید.</string>
     <!-- Message introducing the user to Google Sync. -->
     <string name="sync_plug"><font fgcolor="#ffffffff">به همگام‌سازی گوگل خوش آمدید!</font>
     \nهمگام سازی به روش گوگل، به منظور دسترسی به آشنایان، قرار ملاقات‌ها و موارد دیگر در هر مکان.
@@ -107,11 +107,11 @@
     <string name="really_remove_account_message">آیا نسبت به حذف این حساب اطمینان دارید؟ حذف این حساب همهٔ پیام‌ها، آشنایان و داده‌های دیگر این حساب را هم از گوشی حذف خواهد کرد.
     \nانجام شود؟</string>
     <!-- This is shown if the autheticator for a given account fails to remove it. -->
-    <string name="remove_account_failed">برخی از برنامه‌ها به این حساب نیاز دارند. برای حذف آن باید تلفن را به حالت پیش‌فرض کارخانه بازگردانید. (که این کار باعث پاک شدن تمام داده‌های شخصی شما می‌شود.) می‌توانید این کار را در برنامهٔ تنظیمات، در قسمت خصوصی انجام دهید.</string>
+    <string name="remove_account_failed">برخی از برنامه‌ها به این حساب نیاز دارند. برای حذف آن باید گوشی را به تنظیمات پیش‌فرض کارخانه بازگردانید. (که این کار باعث پاک شدن تمام داده‌های شخصی شما می‌شود.) می‌توانید این کار را در برنامهٔ تنظیمات، در قسمت خصوصی انجام دهید.</string>
     <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
     <string name="provider_label">اشتراک‌های پوش</string>
     <!-- Formatter in AccountSyncSettings for each application we wish to synchronize, e.g. "Sync Calendar" -->
-    <string name="sync_item_title">همگام‌سازی <xliff:g id="authority" example="Calendar">%Ls</xliff:g></string>
+    <string name="sync_item_title">همگام‌سازی <xliff:g id="authority" example="Calendar">%s</xliff:g></string>
     <!-- Title of dialog shown when you can't manually sync an item because it's disabled -->
     <string name="cant_sync_dialog_title">همگام‌سازی به صورت دستی امکان‌پذیر نیست.</string>
     <!-- Messaage shown in dialog when you can't manually sync -->
