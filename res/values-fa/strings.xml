@@ -54,7 +54,7 @@
     <!-- Data synchronization settings screen, checkbox setting option name -->
     <string name="sync_contacts">آشنایان</string>
     <!-- Dialog message for when there are too many deletes that would take place and we want user confirmation -->
-    <string name="sync_too_many_deletes_desc">تعداد <xliff:g id="number_of_deleted_items">%1$Ld</xliff:g> مورد برای <xliff:g id="type_of_sync">%2$Ls</xliff:g>در حساب <xliff:g id="account_name">%3$s</xliff:g> حذف شده است. تمایل دارید چه کاری انجام دهید؟</string>
+    <string name="sync_too_many_deletes_desc">تعداد <xliff:g id="number_of_deleted_items">%1$Ld</xliff:g> مورد برای <xliff:g id="type_of_sync">%2$Ls</xliff:g>در حساب <xliff:g id="account_name">%3$s</xliff:g> حذف شده است. چه کاری انجام شود؟</string>
     <!-- Dialog action for when there are too many deletes that would take place and we want user confirmation, and the user wants to delete the items -->
     <string name="sync_really_delete">موارد حذف شود.</string>
     <!-- Dialog action for when there are too many deletes that would take place and we want user confirmation, and the user wants to undo the deletions -->
@@ -104,9 +104,9 @@
     <!-- Title of remove message for remove account dialog -->
     <string name="really_remove_account_title">حذف حساب</string>
     <!-- Remove account message in dialog -->
-    <string name="really_remove_account_message">نسبت به حذف این حساب اطمینان دارید؟ حذف این حساب همهٔ پیام‌ها، آشنایان و داده‌های دیگر این حساب را هم از گوشی حذف خواهد کرد.\nانجام شود؟</string>
+    <string name="really_remove_account_message">این حساب حذف شود؟ حذف این حساب همهٔ پیام‌ها، آشنایان و اطلاعات دیگر این حساب را هم از گوشی حذف خواهد کرد.\nانجام شود؟</string>
     <!-- This is shown if the autheticator for a given account fails to remove it. -->
-    <string name="remove_account_failed">برخی از برنامه‌ها به این حساب نیاز دارند. برای حذف آن باید گوشی را به تنظیمات پیش‌فرض کارخانه بازگردانید. (این کار باعث پاک شدن تمام اطلاعات شخصی شما می‌شود.) می‌توانید این کار را در برنامهٔ تنظیمات، در قسمت خصوصی انجام دهید.</string>
+    <string name="remove_account_failed">برخی از برنامه‌ها به این حساب نیاز دارند. برای حذف آن باید گوشی را به تنظیمات پیش‌فرض کارخانه بازگردانید. (این کار باعث پاک شدن تمام اطلاعات شخصی شما می‌شود.) می‌توانید این کار را در برنامهٔ «تنظیمات»، در قسمت «خصوصی» انجام دهید.</string>
     <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
     <string name="provider_label">اشتراک‌های پوش</string>
     <!-- Formatter in AccountSyncSettings for each application we wish to synchronize, e.g. "Sync Calendar" -->
@@ -114,5 +114,5 @@
     <!-- Title of dialog shown when you can't manually sync an item because it's disabled -->
     <string name="cant_sync_dialog_title">هماهنگ‌سازی به صورت دستی امکان‌پذیر نیست.</string>
     <!-- Messaage shown in dialog when you can't manually sync -->
-    <string name="cant_sync_dialog_message">هماهنگ‌سازی برای این مورد در حال حاضر غیرفعال است. برای فعال کردن آن، به صورت موقت «استفادهٔ دائم از اینترنت» و هماهنگ‌سازی خودکار را روشن کنید.</string>
+    <string name="cant_sync_dialog_message">هماهنگ‌سازی برای این مورد در حال حاضر غیرفعال است. برای هماهنگ‌سازی، «استفادهٔ دائم از اینترنت» و «هماهنگ‌سازی خودکار» را به صورت موقت فعال کنید.</string>
 </resources>
