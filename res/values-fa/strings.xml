@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2007 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title of the feed synchronization activity. -->
+    <string name="app_label">تنظیمات حساب‌‌ها و هماهنگ‌سازی</string>
+    <!-- Sync settings -->
+    <!-- Main Settings screen setting option name to go into the screen for data sync settings-->
+    <string name="sync_settings">تنظیمات حساب‌ها و هماهنگ‌سازی</string>
+    <!-- Error message when the sync tried to delete too many things -->
+    <string name="sync_too_many_deletes">این تعداد حذف، یکجا امکان ندارد.</string>
+    <!-- Data synchronization settings screen, title of setting that controls whether background data should be used -->
+    <string name="background_data">استفادهٔ دائم از اینترنت</string>
+    <!-- Data synchronization settings screen, summary of setting that controls whether background data should be used -->
+    <string name="background_data_summary">برنامه‌ها می‌توانند در هر زمان اطلاعات را دریافت، ارسال و هماهنگ‌سازی کنند.</string>
+    <!-- Data synchronization settings screen, title of dialog that confirms the user's unchecking of background data -->
+    <string name="background_data_dialog_title">توجه</string>
+    <!-- Data synchronization settings screen, message of dialog that confirms the user's unchecking of background data -->
+    <string name="background_data_dialog_message">غیرفعال کردن «استفادهٔ دائم از اینترنت» عمر باتری را افزایش و استفاده از شبکهٔ اینترنت را کاهش می‌دهد. برخی از برنامه‌ها ممکن است هنوز از «استفادهٔ دائم از اینترنت» استفاده کنند.</string>
+    <!-- Data synchronization settings screen, setting option name -->
+    <string name="sync_automatically">هماهنگ‌سازی خودکار</string>
+    <!-- Data synchronization settings screen, setting option summary text when check box is selected -->
+    <string name="sync_automatically_summary">برنامه‌ها به صورت خودکار هماهنگ‌سازی را انجام دهند.</string>
+    <!-- Data synchronization settings screen, setting option name -->
+    <string name="settings_backup">پشتیبان‌گیری از تنظیمات</string>
+    <!-- Data synchronization settings screen, setting option summary text when check box is selected -->
+    <string name="settings_backup_summary">از تنظیمات من پشتیبان‌گیری شود.</string>
+    <!-- Data synchronization settings screen, menu option -->
+    <string name="sync_menu_sync_now">هماهنگ‌سازی</string>
+    <!-- Data synchronization settings screen, menu option -->
+    <string name="sync_menu_sync_cancel">لغو هماهنگ‌سازی</string>
+    <!-- Data synchronization settings screen, summary of a sync provider (for example, Gmail) when autosync is off and the user wants to do a one-time sync. -->
+    <string name="sync_one_time_sync">برای هماهنگ‌سازی صفحه را لمس کنید.<xliff:g id="last_sync_time">\n%1$Ls</xliff:g></string>
+    <!-- Data synchronization settings screen, checkbox setting option name. Controls whether Gmail should be synced.  Should use "Gmail" to refer to this app.-->
+    <string name="sync_gmail">جی‌میل</string>
+    <!-- Data synchronization settings screen, checkbox setting option name. Controls whether Calendar shoudl be synced. -->
+    <string name="sync_calendar">تقویم</string>
+    <!-- Data synchronization settings screen, checkbox setting option name -->
+    <string name="sync_contacts">آشنایان</string>
+    <!-- Dialog message for when there are too many deletes that would take place and we want user confirmation -->
+    <string name="sync_too_many_deletes_desc">تعداد <xliff:g id="number_of_deleted_items">%1$Ld</xliff:g> مورد برای <xliff:g id="type_of_sync">%2$Ls</xliff:g>در حساب <xliff:g id="account_name">%3$s</xliff:g> حذف شده است. چه کاری انجام شود؟</string>
+    <!-- Dialog action for when there are too many deletes that would take place and we want user confirmation, and the user wants to delete the items -->
+    <string name="sync_really_delete">موارد حذف شود.</string>
+    <!-- Dialog action for when there are too many deletes that would take place and we want user confirmation, and the user wants to undo the deletions -->
+    <string name="sync_undo_deletes">بازگرداندن موارد حذف شده</string>
+    <!-- Dialog action for when there are too many deletes that would take place and we want user confirmation, and the user wants to do nothing for now -->
+    <string name="sync_do_nothing">کاری انجام نشود.</string>
+    <!-- Message when sync is currently failing -->
+    <string name="sync_is_failing">هماهنگ‌سازی در حال حاضر مشکل دارد. بعداً امتحان کنید.</string>
+    <!-- Message introducing the user to Google Sync. -->
+    <string name="sync_plug"><font fgcolor="#ffffffff">به هماهنگ‌سازی گوگل خوش آمدید!</font>
+    \nهماهنگ‌سازی به روش گوگل، به منظور دسترسی به آشنایان، قرار ملاقات‌ها و موارد دیگر در هر مکان.
+    </string>
+
+    <!-- TODO: Remove -->
+    <!-- Header title for those settings relating to application syncing. -->
+    <string name="header_application_sync_settings">تنظیمات هماهنگ‌سازی برنامه‌ها</string>
+    <!-- TODO: end -->
+
+    <!-- Accounts & Synchronization settings --><skip/>
+    <!-- Header title for list of accounts on Accounts & Synchronization settings -->
+    <string name="header_manage_accounts">مدیریت حساب‌ها</string>
+    <!-- Header title for those settings relating to general syncing. -->
+    <string name="header_general_sync_settings">تنظیمات عمومی هماهنگ‌سازی</string>
+
+    <!-- Sync status messages on Accounts & Synchronization settings --><skip/>
+    <!-- Sync status shown when sync is enabled -->
+    <string name="sync_enabled">هماهنگ‌سازی فعال است.</string>
+    <!-- Sync status shown when sync is disabled -->
+    <string name="sync_disabled">هماهنگ‌سازی غیرفعال است.</string>
+    <!-- Sync status shown when last sync resulted in an error -->
+    <string name="sync_error">خطا در هماهنگ‌سازی</string>
+
+    <!-- Button label to add an account -->
+    <string name="add_account_label">افزودن حساب</string>
+    <!-- Header for data and synchronization -->
+    <string name="header_data_and_synchronization">اطلاعات و هماهنگ‌سازی</string>
+    <!-- Preference item that lets the user change password -->
+    <string name="preference_change_password_title">تغییر گذرواژه</string>
+    <!-- Header that appears at the top of Account Settings screen -->
+    <string name="header_account_settings">تنظیمات حساب</string>
+    <!-- Button label to remove current account -->
+    <string name="remove_account_label">حذف حساب</string>
+    <!-- Title shown in AddAccount -->
+    <string name="header_add_an_account">افزودن یک حساب</string>
+    <!-- Button shown when this activity is run from SetupWizard -->
+    <string name="finish_button_label">پایان</string>
+    <!-- Title of remove message for remove account dialog -->
+    <string name="really_remove_account_title">حذف حساب</string>
+    <!-- Remove account message in dialog -->
+    <string name="really_remove_account_message">این حساب حذف شود؟ حذف این حساب همهٔ پیام‌ها، آشنایان و اطلاعات دیگر این حساب را هم از گوشی حذف خواهد کرد.\nانجام شود؟</string>
+    <!-- This is shown if the autheticator for a given account fails to remove it. -->
+    <string name="remove_account_failed">برخی از برنامه‌ها به این حساب نیاز دارند. برای حذف آن باید گوشی را به تنظیمات پیش‌فرض کارخانه بازگردانید. (این کار باعث پاک شدن تمام اطلاعات شخصی شما می‌شود.) می‌توانید این کار را در برنامهٔ «تنظیمات»، در قسمت «خصوصی» انجام دهید.</string>
+    <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
+    <string name="provider_label">اشتراک‌های پوش</string>
+    <!-- Formatter in AccountSyncSettings for each application we wish to synchronize, e.g. "Sync Calendar" -->
+    <string name="sync_item_title">هماهنگ‌سازی <xliff:g id="authority" example="Calendar">%s</xliff:g></string>
+    <!-- Title of dialog shown when you can't manually sync an item because it's disabled -->
+    <string name="cant_sync_dialog_title">هماهنگ‌سازی به صورت دستی امکان‌پذیر نیست.</string>
+    <!-- Messaage shown in dialog when you can't manually sync -->
+    <string name="cant_sync_dialog_message">هماهنگ‌سازی برای این مورد در حال حاضر غیرفعال است. برای هماهنگ‌سازی، «استفادهٔ دائم از اینترنت» و «هماهنگ‌سازی خودکار» را به صورت موقت فعال کنید.</string>
+</resources>
